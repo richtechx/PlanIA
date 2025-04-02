@@ -1,8 +1,8 @@
+git clone https://huggingface.co/spaces/richtechx/plania
 import streamlit as st
-
 x = st.slider('Select a value')
 st.write(x, 'squared is', x * x)
-
+git add app.py && git commit -m 'Add application file' && git push
 
 st.set_page_config(page_title="Plania | Guía Docente IA", layout="centered")
 
