@@ -1,5 +1,8 @@
 import streamlit as st
-import requests
+
+x = st.slider('Select a value')
+st.write(x, 'squared is', x * x)
+
 
 st.set_page_config(page_title="Plania | Guía Docente IA", layout="centered")
 
